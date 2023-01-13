@@ -1,0 +1,31 @@
+.tracker__main {
+  display: flex;
+  flex-direction: column;
+  p {
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 20px;
+    color: rgb(161, 79, 238);
+  }
+  .tracker__stats {
+    display: flex;
+    justify-content: space-around;
+    .tracker__singleStats {
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 10px;
+      height: 100px;
+      width: 200px;
+      background-color: rgb(220, 217, 217);
+      box-shadow: 1px 2px 2px rgb(199, 196, 196);
+      color: rgb(161, 79, 238);
+      p {
+        font-size: 16px;
+        padding: 0px;
+      }
+    }
+  }
+}
